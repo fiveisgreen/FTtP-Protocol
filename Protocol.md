@@ -12,17 +12,18 @@ Protocol version 0.1
 - [ ] No touching the mask after the exercises start.
 
 ## Exercise 1
-Start with talking or singing! 
+- [ ] Start with talking or singing! 
+
 Yes, this is the opposite of OSHA. 
-If you can’t think of a song, use this long paragraph of instructions: 
+If you can’t think of a song, use this long paragraph of instructions or The Rainbow Passage (see Resources section). 
 <!-- If you use a computer vision setup, the display will let you know if you moved your jaw enough. -->
 If no computer vision setup is available, jaw motion must be exaggerated. (If CV is available, see the "computerVision" branch).
-Don’t mumble. TRY to crash the score. 
-(If you *fail* to crash it, the mask is good. )
+**Don’t mumble. TRY to crash the score.** (If you *fail* to crash it, the mask is good. )
 Some good masks will fail, but this ensures that only good masks will pass. 
 The priority is the user’s safety, not protecting the ego of the mask company.
 
-When you hear the beep mid-song/passage, type the number you see into the spreadsheet and continue vocalizing
+- [ ] When you hear the beep mid-song/passage, type the number you see into the spreadsheet 
+- [ ] continue vocalizing
 
 ## Exercise 2
 - [ ] Continue with talking or singing right through.
