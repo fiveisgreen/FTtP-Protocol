@@ -15,8 +15,7 @@ Protocol version 0.1
 Start with talking or singing! 
 Yes, this is the opposite of OSHA. 
 If you can’t think of a song, use this long paragraph of instructions: 
-<!-- If you use a computer vision setup, the display will let you know if you moved your jaw enough. -->
-If no computer vision setup is available, jaw motion must be exaggerated. (If CV is available, see the "computerVision" branch).
+The computer vision display will let you know if you moved your jaw enough. (If no computer vision setup is available, see the master branch.)
 Don’t mumble. TRY to crash the score. 
 (If you *fail* to crash it, the mask is good. )
 Some good masks will fail, but this ensures that only good masks will pass. 
@@ -53,6 +52,10 @@ That number should be within an order of magnitude of you actual exposure reduct
 
 Double digits is great. Triple digits is better. Four digits is overkill.
 
+## Computer Vision component
+The computer vision part checks that jaw motion during speech is between a certain threshold, probably at least 2cm of amplitude. Challenging enough to dislodge bad seals while also being a realistic upper bound for normal speech.
+![Screenshot of the Dotdiff computer vision tool in use](/images/cv_screenshot_4md.jpg)
+
 # Notes
 Speech increases particle count compared to just jaw motion. 
 That’s fine. It always biases the score down, away from overpromising. 
@@ -60,6 +63,7 @@ If the speech generated particle count is meaningfully affecting your score, you
 If none of your masks do well, pick the highest and keep an eye out for a better one.
 
 # Resources
+* The [Dotdiff](https://github.com/fiveisgreen/Dotdiff/blob/main/helloworld.py) computer vision tool.
 * This version is taken from FTtP's thread [here](https://twitter.com/FitTestMyPlanet/status/1660484149344337920?s=20)
 * [@toba's port installation video ](https://twitter.com/toba/status/1656825931971850240?s=20)
   - Note that the ring must be installed in the magnetic holder with the concave side up (convex side touching touching the magnet.)
