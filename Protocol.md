@@ -54,7 +54,7 @@ Double digits is great. Triple digits is better. Four digits is overkill.
 
 ## Computer Vision component
 The computer vision part checks that jaw motion during speech is between a certain threshold, probably at least 2cm of amplitude. Challenging enough to dislodge bad seals while also being a realistic upper bound for normal speech.
-![Screenshot of the Dotdiff computer vision tool in use](/images/cv_screenshot_4md.jpg)
+![Screenshot of the Dotdiff computer vision tool in use](/cv_screenshot_4md.jpg)
 
 # Notes
 Speech increases particle count compared to just jaw motion. 
