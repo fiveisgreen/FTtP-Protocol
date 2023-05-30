@@ -16,7 +16,7 @@ Protocol version 0.1
 
 Yes, this is the opposite of OSHA. 
 If you can’t think of a song, use this long paragraph of instructions or The Rainbow Passage (see Resources section). 
-The computer vision display will let you know if you moved your jaw enough. (If no computer vision setup is available, see the master branch.)
+The computer vision display will let you know if you moved your jaw enough. (If no computer vision setup is available, see the "nonComputerVision" branch.)
 **Don’t mumble. TRY to crash the score.** (If you *fail* to crash it, the mask is good. )
 Some good masks will fail, but this ensures that only good masks will pass. 
 The priority is the user’s safety, not protecting the ego of the mask company.
