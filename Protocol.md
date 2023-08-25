@@ -1,4 +1,4 @@
-Protocol version 0.1
+Quickest Adversarial Protocol version 0.2
 
 # Protocol Checklist
 - [ ] Open a spreadsheet program
@@ -50,9 +50,11 @@ Select all the numbers
 Close parentheses )
 Enter
 
-That number should be within an order of magnitude of you actual exposure reduction.
+That number will probably be within an order of magnitude of your actual exposure reduction.
 
-Double digits is great. Triple digits is better. Four digits is overkill.
+Two digits is great.
+Three digits is better. 
+Four digits is probably wasting time.
 
 # Notes
 Speech increases particle count compared to just jaw motion. 
