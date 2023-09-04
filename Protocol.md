@@ -1,4 +1,4 @@
-Quickest Adversarial Protocol version 0.2
+FTtP Adversarial Quick Screening Protocol version 0.2
 
 # Protocol Checklist
 - [ ] Open a spreadsheet program
