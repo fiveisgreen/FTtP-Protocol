@@ -1,70 +1,61 @@
-FTtP Adversarial Quick Screening Protocol version 0.2
+# FTtP 2.5 Respirator CRASH Test Protocol
 
-# Protocol Checklist
-- [ ] Open a spreadsheet program
-- [ ] Set up whatever condensing particle counter you're using with a new alcohol cartridge.
-- [ ] Install the probe in the mask (see @toba‘s vid)
-- [ ] Turn the CPC machine on 
-- [ ] If your mask has a nosewire, preform the nosewire with your thumbs.
-- [ ] Put the mask on. 
-- [ ] If the mask uses a nosewire, pinch it again to tighten it
-- [ ] Don’t wait for the mask to purge - start collecting data now!
-- [ ] No touching the mask after the exercises start.
+## Instructions
 
-## Exercise 1
-- [ ] Start with talking or singing! 
+### *For tests conducted with 2.5-cm jaw spacers*
 
-Yes, this is the opposite of OSHA. 
-If you can’t think of a song, use this long paragraph of instructions or The Rainbow Passage (see Resources section). 
-<!-- If you use a computer vision setup, the display will let you know if you moved your jaw enough. -->
-If no computer vision setup is available, jaw motion must be exaggerated. (If CV is available, see the "computerVision" branch).
-**Don’t mumble. TRY to crash the score.** (If you *fail* to crash it, the mask is good. )
-Some good masks will fail, but this ensures that only good masks will pass. 
-The priority is the user’s safety, not protecting the ego of the mask company.
+1. Prepare your quantitative fit testing (QNFT) setup, ensuring a stable ambient particle count.  
 
-- [ ] When you hear the beep mid-song/passage, type the number you see into the spreadsheet 
-- [ ] continue vocalizing
+2. Place the blue 2.5-cm spacer in your mouth.
 
-## Exercise 2
-- [ ] Continue with talking or singing right through.
-- [ ] When you hear the beep, stop vocalizing
-- [ ] type the number you see into the spreadsheet.
+3. Before donning the respirator, practice **2.5-cm jaw cycles** by manipulating the spacer within your mouth as follows:
 
-## Exercise 3
-- [ ] Relax and check your phone for notifications. This is to give the mask time to reseal. 
-You can choose to move your head however you want or not. (The previous exercise is already a big enough challenge). 
-- [ ] Type in the result
+    **↕** Position the spacer so it stands vertically between your upper and lower front teeth (jaw open 2.5 cm).
 
-## Exercise 4
-- [ ] Repeat of exercise 3
+    **↔** Return the spacer to a default horizontal position behind your teeth (jaw closed).
+	
+4. Don the respirator, adjust the nosewire, and do not start the test for at least three minutes. Relax, browse phone, etc.
 
-## Exercise 5
-- [ ] Same as last two except you’re trying to touch your chin to your chest
-* Beep. That’s it
-- [ ] Type in the last number. 
+5. Begin testing (see [**12-Exercise Set List**](#12-exercise-set-list)) and record the fit factor for each exercise in a spreadsheet (Excel or one you can export to .xlsx).
 
-## Data Processing
-Go to a blank cell and type 
-= HARMEAN(
-Select all the numbers
-Close parentheses )
-Enter
+6. For each respirator, please conduct **two** 12-exercise sets, readjusting the mask **only** between completed sets.
 
-That number will probably be within an order of magnitude of your actual exposure reduction.
+7. Optional: For each 12-exercise set, find the harmonic mean fit factor (HMFF) using the spreadsheet formula `=HARMEAN()`
 
-Two digits is great.
-Three digits is better. 
-Four digits is probably wasting time.
+8. Email the .xlsx file to FitTestMyPlanet@gmail.com to be part of the FTtP2.5 global survey. Thank you!
 
-# Notes
-Speech increases particle count compared to just jaw motion. 
-That’s fine. It always biases the score down, away from overpromising. 
-If the speech generated particle count is meaningfully affecting your score, you’re already getting good protection and should focus on other things.
-If none of your masks do well, pick the highest and keep an eye out for a better one.
+---
 
-# Resources
-* This version is taken from FTtP's thread [here](https://twitter.com/FitTestMyPlanet/status/1660484149344337920?s=20)
-* [@toba's port installation video ](https://twitter.com/toba/status/1656825931971850240?s=20)
-  - Note that the ring must be installed in the magnetic holder with the concave side up (convex side touching touching the magnet.)
-  - Note that the spike must be inserted from the inside center of the mask. 
-* [The Rainbow Passage](https://www.york.ac.uk/media/languageandlinguistics/documents/currentstudents/linguisticsresources/Standardised-reading.pdf)
+## 12-Exercise Set List
+
+### *For tests conducted with 2.5-cm jaw spacers or AntiTipToe computer vision software*
+
+**Exercise 1:** Relax, browse phone, speech/movement optional
+
+**Exercise 2:** Two 2.5-cm jaw motion cycles
+
+**Exercise 3:** Relax, browse phone, speech/movement optional
+
+**Exercise 4:** Relax, browse phone, speech/movement optional
+
+**Exercise 5:** Two 2.5-cm jaw motion cycles
+
+**Exercise 6:** Relax, browse phone, speech/movement optional
+
+**Exercise 7:** Relax, browse phone, speech/movement optional
+
+**Exercise 8:** Two 2.5-cm jaw motion cycles
+
+**Exercise 9:** Relax, browse phone, speech/movement optional
+
+**Exercise 10:** Relax, browse phone, speech/movement optional
+
+**Exercise 11:** Two 2.5-cm jaw motion cycles
+
+**Exercise 12:** Relax, browse phone, speech/movement optional
+
+---
+
+https://tinyurl.com/fttptutorials
+
+*Version 1.2, revised 7 October 2023*
